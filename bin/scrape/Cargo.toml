@@ -1,0 +1,22 @@
+[package]
+name = "scrape"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+decoders = { path = "../../crates/decoders" }
+extractors = { path = "../../crates/extractors" }
+settings = { path = "../../crates/settings" }
+utils = { path = "../../crates/utils" }
+
+anyhow = { workspace = true }
+borsh = { workspace = true }
+bs58 = { workspace = true }
+futures = { workspace = true }
+solana-client = { workspace = true }
+solana-sdk = { workspace = true }
+solana-transaction-status = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-appender = { workspace = true }
+tracing-subscriber = { workspace = true }

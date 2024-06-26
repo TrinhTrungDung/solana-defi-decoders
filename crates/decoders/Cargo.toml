@@ -1,0 +1,9 @@
+[package]
+name = "decoders"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+anyhow = { workspace = true }
+borsh = { workspace = true }
+solana-program = { workspace = true }

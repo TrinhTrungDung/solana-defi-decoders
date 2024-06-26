@@ -1,0 +1,9 @@
+[package]
+name = "settings"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+config = { workspace = true }
+serde = { workspace = true }
+tracing = { workspace = true }

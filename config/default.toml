@@ -1,0 +1,9 @@
+[tracing]
+debug = true
+dirname = "logs"
+prefix = "log"
+level = "debug"
+
+[solana]
+wss = "" # TODO Replace with a Solana WSS endpoint
+rpc = "" # TODO Replace with a Solana RPC endpoint

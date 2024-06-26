@@ -1,0 +1,11 @@
+[package]
+name = "extractors"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+models = { path = "../models" }
+
+solana-client = { workspace = true }
+solana-sdk = { workspace = true }
+solana-transaction-status = { workspace = true }
